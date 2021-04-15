@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clocker</title>
+    
+    <!-- link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- /link -->
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <a href="#" id="logo">clocker</a>
+            
+            <!-- nav -->
+            <nav>
+                <ul>
+                    <li><a href="#">자명종</a></li>
+                    <li><a href="#">타이머</a></li>
+                    <li><a href="#">스톱워치</a></li>
+                </ul>
+            </nav>
+            <!-- /nav -->
+
+            <!-- dark mode -->
+            <div id="darkMode">
+                <input type="checkbox" name="darkModeSwitch" id="darkModeSwitch" hidden>
+                <label for="darkModeSwitch" id="darkModeSlider"></label>
+            </div>
+            <!-- /dark mode -->
+        </header>
+        <!-- /header -->
+
+        <!-- content -->
+        <div id="content">
+            <h5 id="contentTitle"></h5>
+            <div id="Timer">
+                <h1 id="hour">00</h1>
+                <span>:</span>
+                <h1 id="min">00</h1>
+                <span>:</span>
+                <h1 id="second">00</h1>
+            </div>
+        </div>
+        <!-- /content -->
+
+        <!-- footer -->
+        <footer>
+            © 2021. Yeon jisu all rights reserved. 
+        </footer>
+        <!-- /footer -->
+    </div>
+</body>
+</html>
